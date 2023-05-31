@@ -1,55 +1,67 @@
 {
-  "title":"Você seria um heroi ou vilão ?",
+  "title":"Qual seria sua classe em um RPG?",
   "questions":[
     {
       "id":1,
-      "question": "Qual super poder você escolheria ?",
+      "question": "Tipo de equipamento preferido ?",
       "options":[
-        {"id": 1, "name":"Raios-Lasers", "alias":"A"},
-        {"id": 2, "name":"Voar", "alias":"B"},
-        {"id": 3, "name":"Explodir coisas", "alias":"A"},
-        {"id": 4, "name":"Curar feridas", "alias":"B"},
-        {"id": 5, "name":"Soltar fogo pelas mãos", "alias":"A"}
+        {"id": 1, "name":"Armadura de placas", "alias":"A"},
+        {"id": 2, "name":"Armadura de Couro", "alias":"B"},
+        {"id": 3, "name":"Túnica", "alias":"C"},
+        {"id": 4, "name":"Roupa Furtiva", "alias":"D"}
       ]
     },
     {
       "id":2,
-      "question": "Quem você salvaria primeiro ?",
+      "question": "Que tipo de arma de longa distância te agrada ?",
       "options":[
-        {"id": 1, "name":"Crianças", "alias":"A"},
-        {"id": 2, "name":"Idosos", "alias":"A"},
-        {"id": 3, "name":"Não saberia escolher", "alias":"B"}
+        {"id": 1, "name":"Arco e Flecha", "alias":"B"},
+        {"id": 2, "name":"Adagas", "alias":"D"},
+        {"id": 3, "name":"Feitiços", "alias":"C"},
+        {"id": 4, "name":"Nenhuma", "alias":"A"}
       ]
     },
     {
       "id":3,
-      "question": "Qual a sua maior preocupação ao enfretar outro super ser ?",
+      "question": "Qual o seu objetivo ?",
       "options":[
-        {"id": 1, "name":"Não destruir prédios", "alias":"B"},
-        {"id": 2, "name":"Socar a cara do inimigo", "alias":"A"},
-        {"id": 3, "name":"Não sujar meu traje", "alias":"A"},
-        {"id": 4, "name":"Não deixar ninguém se ferir", "alias":"B"}
+        {"id": 1, "name":"Adquirir Conhecimento", "alias":"C"},
+        {"id": 2, "name":"Proteger meus aliados", "alias":"A"},
+        {"id": 3, "name":"Saquear", "alias":"D"},
+        {"id": 4, "name":"Apenas me Aventurar", "alias":"B"}
       ]
     },
     {
       "id":4,
-      "question": "Qual o seu maior foco ?",
+      "question": "Qual o seu local favorito ?",
       "options":[
-        {"id": 1, "name":"Ficar rico com poderes", "alias":"A"},
-        {"id": 2, "name":"Salvar a cidade", "alias":"B"}
+        {"id": 1, "name":"Bosque", "alias":"B"},
+        {"id": 2, "name":"Biblioteca", "alias":"C"},
+        {"id": 3, "name":"Arena", "alias":"A"},
+        {"id": 4, "name":"Cidade", "alias":"D"}
       ]
     },
     {
       "id":5,
-      "question": "Qual o seu apelido de super ser ?",
+      "question": "Oque faria ao encontrar alguém ferido e desacordado em sua jornada ?",
       "options":[
-        {"id": 1, "name":"O Terrivel", "alias":"A"},
-        {"id": 2, "name":"Amigo da vizinhança", "alias":"B"}
+        {"id": 1, "name":"Roubaria seus pertences", "alias":"D"},
+        {"id": 2, "name":"Curaria o individuo", "alias":"C"},
+        {"id": 1, "name":"O protegeria até que ele recobrace a consciência", "alias":"A"},
+        {"id": 2, "name":"Faria curativos", "alias":"B"}
       ]
     }
   ],
   "results":{
-    "A": "Você muito provavelmente seria um super vilão!",
-    "B": "Você muito provavelmente seria um super Herói!"
+    "A": "Você sería um Paladino",
+    "B": "Você sería um Elfo",
+    "C": "Você sería um Mago",
+    "D": "Você sería um Assassino"
+  },
+  "resultsImg":{
+    "A": "assets/imgs/paladino.png",
+    "B": "assets/imgs/elfo.png",
+    "C": "assets/imgs/mago.png",
+    "D": "assets/imgs/assassino.png"
   }
 }
